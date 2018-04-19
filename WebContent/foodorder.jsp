@@ -4,17 +4,17 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>food-order</title>
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
 <body>
 <div id="container">
   <div id="header"> <a href="">IN-TRAIN</a> </div>
-  
+
 		  <div class="navbar">
-		  <a href="">Home</a>
+		  <a href="index.html">Home</a>
 		  <div class="dropdown">
-		    <button class="dropbtn">Services 
+		    <button class="dropbtn">Services
 		      <i class="fa fa-caret-down"></i>
 		    </button>
 		    <div class="dropdown-content">
@@ -23,11 +23,11 @@
 		      <a href="cleaner.jsp">Cleaner Request</a>
 		    </div>
 		  </div>
-		  <a href="">Contact Us</a>
-		  <a href="">About Us</a> 
+		  <a href="contactus.jsp">Contact Us</a>
+		  <a href="">About Us</a>
 		</div>
   <div id="sidebar">
-    <h1>Welcome</h1>
+    <h1>Welcome foodi this is only for foodies like me</h1>
   </div>
   <div id="main">
     <div align="center">

@@ -26,7 +26,7 @@
           <li class="selected"><a href="index.html">Home</a></li>
           <li><a href="examples.html">About Us</a></li>
           <li><a href="login.jsp">LOGIN</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="contactus.jsp">Contact Us</a></li>
         </ul>
       </div>
     </div>
@@ -36,7 +36,7 @@
 	<div id="page" class="container">
 		<center>
 			<form action="logincheck" method="post">
-			<% 
+			<%
 				//HttpSession session2=request.getSession();
 				try
 				{
@@ -44,12 +44,12 @@
 				{
 					%>
 						<p style="color:red"><%=session.getAttribute("loginerror") %></p>
-					<% 
+					<%
 				}
 				}
 				catch(Exception e)
 				{
-				
+
 				}
 			%>
 	<table align="center">
@@ -69,7 +69,7 @@
 		<td><a href="#">change password?</a></td>
 	</tr>
 	</table>
-	</form>	
+	</form>
 		</center>
 	</div>
 	</body>
